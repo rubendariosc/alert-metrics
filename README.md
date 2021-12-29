@@ -8,6 +8,7 @@
 ```memory_capacity``` GAUGE INT64 - <br>
 ```per_stage_system_lag``` GAUGE INT64 - <br>
 
-## Pub/Sub Subscription
+## Pub/Sub
+### pubsub_subscription
 
-## Pub/Sub Topic
+### pubsub_topic

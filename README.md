@@ -2,10 +2,10 @@
 
 ### Dataflow
 ```current_num_vcpus``` - <br>
-```system_lag``` -
-```disk_space_capacity``` -
-```memory_capacity``` -
-```per_stage_system_lag``` -
+```system_lag``` - <br>
+```disk_space_capacity``` - <br>
+```memory_capacity``` - <br>
+```per_stage_system_lag``` - <br>
 
 ### Pub/Sub Subscription
 

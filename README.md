@@ -45,5 +45,9 @@ Recuento acumulado de operaciones de publicación de mensajes, agrupadas por res
 ```uploaded_bytes``` **DELTA** INT64<br>
 Bytes cargados
 <br><br>
+### bigquery_dataset
+```log_entry_count``` **DELTA** INT64<br>
+Número de entradas de registro ingeridas. Los registros excluidos no se cuentan.
+<br><br>
 
 ### bigquery_project

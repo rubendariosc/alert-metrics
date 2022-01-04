@@ -30,5 +30,20 @@ Recuento acumulado de mensajes enviados por Cloud Pub / Sub a los clientes suscr
 <br><br>
 
 ### pubsub_topic
+```num_unacked_messages_by_region``` **GAUGE** INT64<br>
+Número de mensajes no reconocidos en un tema, desglosados ​​por región de la nube.
+<br><br>
+```byte_cost``` **DELTA** INT64<br>
+Costo de operaciones, medido en bytes. Se utiliza para medir la utilización de las cuotas.
+<br><br>
+```send_message_operation_count``` **DELTA** INT64<br>
+Recuento acumulado de operaciones de publicación de mensajes, agrupadas por resultado. Para obtener una definición de las operaciones de mensajes, consulte la suscripción a la métrica de Cloud Pub / Sub / mod_ack_deadline_message_operation_count.
+<br><br>
 
 ## BigQuery
+### bigquery_dataset
+```uploaded_bytes``` **DELTA** INT64<br>
+Bytes cargados
+<br><br>
+
+### bigquery_project
